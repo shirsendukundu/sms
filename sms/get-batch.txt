@@ -1,0 +1,14 @@
+
+
+<?php
+require_once('connection.php');
+$cid = mysqli_real_escape_string($_POST['course']);
+if($cid!='')
+{
+$states_result = $conn->query('select * from batch where cid='.$cid.'');
+$options = "<option value=''>Select batch</option>";
+while($row = $states_result->fetch_assoc()) {
+$options .= "<option value='".$row['bid']."'>".$row['day']."</option>";
+}
+echo $options;
+}?>

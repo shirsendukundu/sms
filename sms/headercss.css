@@ -1,0 +1,32 @@
+
+*{
+	margin: 0;
+	padding:0;
+}
+/*.institute {
+	position: relative;
+    float: center;
+    transform: translate(39%,50% );
+    font-size:30px;
+    font-family: 'Marck Script', cursive;
+}
+
+
+.admin{
+	
+	position: relative;
+    float: right;
+    transform: translate(-15%,50% );
+    font-size:20px;
+    font-family: 'Marck Script', cursive;
+}/*
+a:hover{
+     font-size:18px;
+     font-family: 'Neuton', serif;
+     color:black;
+}
+a:link{
+	color:white;
+}*/
+
+
