@@ -59,10 +59,8 @@ if ($err) {
 } else {
   echo $response;
 }
-
 	  	header('Location:otp_form.php');  
-
-        }
+       }
 		   else {
 				$loginmsg="input details incorret";
 				}
